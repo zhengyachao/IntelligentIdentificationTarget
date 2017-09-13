@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A486A651F53D7EF00A9F929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A486A641F53D7EF00A9F929 /* main.m */; };
+		6A486A681F53D7EF00A9F929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A486A671F53D7EF00A9F929 /* AppDelegate.m */; };
+		6A486A6B1F53D7EF00A9F929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A486A6A1F53D7EF00A9F929 /* ViewController.m */; };
+		6A486A701F53D7EF00A9F929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A486A6F1F53D7EF00A9F929 /* Assets.xcassets */; };
+		6A486A731F53D7EF00A9F929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A486A711F53D7EF00A9F929 /* LaunchScreen.storyboard */; };
+		6A486A7E1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A486A7D1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.m */; };
+		6A486A891F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A486A881F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.m */; };
+		6AFA15871F691B9800CE9E30 /* FaceRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA15861F691B9800CE9E30 /* FaceRecognitionViewController.m */; };
+		6AFA158B1F691EA900CE9E30 /* FaceDetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA158A1F691EA900CE9E30 /* FaceDetectionViewController.m */; };
+		6AFA158E1F691F7000CE9E30 /* FaceLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA158D1F691F7000CE9E30 /* FaceLoginViewController.m */; };
+		6AFA15A01F692DEC00CE9E30 /* FCPPApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA15911F692DEC00CE9E30 /* FCPPApi.m */; };
+		6AFA15A11F692DEC00CE9E30 /* FCPPBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA15931F692DEC00CE9E30 /* FCPPBody.m */; };
+		6AFA15A21F692DEC00CE9E30 /* FCPPFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA15961F692DEC00CE9E30 /* FCPPFace.m */; };
+		6AFA15A31F692DEC00CE9E30 /* FCPPFaceDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA15981F692DEC00CE9E30 /* FCPPFaceDetect.m */; };
+		6AFA15A41F692DEC00CE9E30 /* FCPPFaceSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA159A1F692DEC00CE9E30 /* FCPPFaceSet.m */; };
+		6AFA15A51F692DEC00CE9E30 /* FCPPOCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA159C1F692DEC00CE9E30 /* FCPPOCR.m */; };
+		6AFA15A61F692DEC00CE9E30 /* UIImage+FCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA159F1F692DEC00CE9E30 /* UIImage+FCExtension.m */; };
+		C11D73F8DE8FB12BD2182842 /* libPods-IntelligentIdentificationTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FEC8528C1BD0D2F73A0F36 /* libPods-IntelligentIdentificationTarget.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A486A7A1F53D7EF00A9F929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A486A581F53D7EF00A9F929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A486A5F1F53D7EF00A9F929;
+			remoteInfo = IntelligentIdentificationTarget;
+		};
+		6A486A851F53D7EF00A9F929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A486A581F53D7EF00A9F929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A486A5F1F53D7EF00A9F929;
+			remoteInfo = IntelligentIdentificationTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDE3A9A04558EE00F845D8C /* Pods-IntelligentIdentificationTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentIdentificationTarget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentIdentificationTarget/Pods-IntelligentIdentificationTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		6A486A601F53D7EF00A9F929 /* IntelligentIdentificationTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentIdentificationTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A486A641F53D7EF00A9F929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A486A661F53D7EF00A9F929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A486A671F53D7EF00A9F929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A486A691F53D7EF00A9F929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A486A6A1F53D7EF00A9F929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A486A6F1F53D7EF00A9F929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A486A721F53D7EF00A9F929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A486A741F53D7EF00A9F929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A486A791F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentIdentificationTargetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A486A7D1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligentIdentificationTargetTests.m; sourceTree = "<group>"; };
+		6A486A7F1F53D7EF00A9F929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A486A841F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentIdentificationTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A486A881F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligentIdentificationTargetUITests.m; sourceTree = "<group>"; };
+		6A486A8A1F53D7EF00A9F929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFA15851F691B9800CE9E30 /* FaceRecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRecognitionViewController.h; sourceTree = "<group>"; };
+		6AFA15861F691B9800CE9E30 /* FaceRecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceRecognitionViewController.m; sourceTree = "<group>"; };
+		6AFA15891F691EA900CE9E30 /* FaceDetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectionViewController.h; sourceTree = "<group>"; };
+		6AFA158A1F691EA900CE9E30 /* FaceDetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceDetectionViewController.m; sourceTree = "<group>"; };
+		6AFA158C1F691F7000CE9E30 /* FaceLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceLoginViewController.h; sourceTree = "<group>"; };
+		6AFA158D1F691F7000CE9E30 /* FaceLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceLoginViewController.m; sourceTree = "<group>"; };
+		6AFA15901F692DEC00CE9E30 /* FCPPApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPApi.h; sourceTree = "<group>"; };
+		6AFA15911F692DEC00CE9E30 /* FCPPApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPApi.m; sourceTree = "<group>"; };
+		6AFA15921F692DEC00CE9E30 /* FCPPBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPBody.h; sourceTree = "<group>"; };
+		6AFA15931F692DEC00CE9E30 /* FCPPBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPBody.m; sourceTree = "<group>"; };
+		6AFA15941F692DEC00CE9E30 /* FCPPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPConfig.h; sourceTree = "<group>"; };
+		6AFA15951F692DEC00CE9E30 /* FCPPFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPFace.h; sourceTree = "<group>"; };
+		6AFA15961F692DEC00CE9E30 /* FCPPFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPFace.m; sourceTree = "<group>"; };
+		6AFA15971F692DEC00CE9E30 /* FCPPFaceDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPFaceDetect.h; sourceTree = "<group>"; };
+		6AFA15981F692DEC00CE9E30 /* FCPPFaceDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPFaceDetect.m; sourceTree = "<group>"; };
+		6AFA15991F692DEC00CE9E30 /* FCPPFaceSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPFaceSet.h; sourceTree = "<group>"; };
+		6AFA159A1F692DEC00CE9E30 /* FCPPFaceSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPFaceSet.m; sourceTree = "<group>"; };
+		6AFA159B1F692DEC00CE9E30 /* FCPPOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPOCR.h; sourceTree = "<group>"; };
+		6AFA159C1F692DEC00CE9E30 /* FCPPOCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPPOCR.m; sourceTree = "<group>"; };
+		6AFA159D1F692DEC00CE9E30 /* FCPPSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPPSDK.h; sourceTree = "<group>"; };
+		6AFA159E1F692DEC00CE9E30 /* UIImage+FCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FCExtension.h"; sourceTree = "<group>"; };
+		6AFA159F1F692DEC00CE9E30 /* UIImage+FCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FCExtension.m"; sourceTree = "<group>"; };
+		94B2E5D7B4E70504410FCDAF /* Pods-IntelligentIdentificationTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentIdentificationTarget.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentIdentificationTarget/Pods-IntelligentIdentificationTarget.release.xcconfig"; sourceTree = "<group>"; };
+		B4FEC8528C1BD0D2F73A0F36 /* libPods-IntelligentIdentificationTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntelligentIdentificationTarget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A486A5D1F53D7EF00A9F929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D73F8DE8FB12BD2182842 /* libPods-IntelligentIdentificationTarget.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A761F53D7EF00A9F929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A811F53D7EF00A9F929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2015C8788D4E4189452549E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4FEC8528C1BD0D2F73A0F36 /* libPods-IntelligentIdentificationTarget.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F0CE0B69CB7EDCD905A2169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CDE3A9A04558EE00F845D8C /* Pods-IntelligentIdentificationTarget.debug.xcconfig */,
+				94B2E5D7B4E70504410FCDAF /* Pods-IntelligentIdentificationTarget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A486A571F53D7EF00A9F929 = {
+			isa = PBXGroup;
+			children = (
+				6A486A621F53D7EF00A9F929 /* IntelligentIdentificationTarget */,
+				6A486A7C1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests */,
+				6A486A871F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests */,
+				6A486A611F53D7EF00A9F929 /* Products */,
+				5F0CE0B69CB7EDCD905A2169 /* Pods */,
+				2015C8788D4E4189452549E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A486A611F53D7EF00A9F929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A486A601F53D7EF00A9F929 /* IntelligentIdentificationTarget.app */,
+				6A486A791F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.xctest */,
+				6A486A841F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A486A621F53D7EF00A9F929 /* IntelligentIdentificationTarget */ = {
+			isa = PBXGroup;
+			children = (
+				6AFA158F1F692DEC00CE9E30 /* FCPPSDK */,
+				6A486A661F53D7EF00A9F929 /* AppDelegate.h */,
+				6A486A671F53D7EF00A9F929 /* AppDelegate.m */,
+				6A486A691F53D7EF00A9F929 /* ViewController.h */,
+				6A486A6A1F53D7EF00A9F929 /* ViewController.m */,
+				6AFA15881F691E7300CE9E30 /* Face */,
+				6A486A6F1F53D7EF00A9F929 /* Assets.xcassets */,
+				6A486A711F53D7EF00A9F929 /* LaunchScreen.storyboard */,
+				6A486A741F53D7EF00A9F929 /* Info.plist */,
+				6A486A631F53D7EF00A9F929 /* Supporting Files */,
+			);
+			path = IntelligentIdentificationTarget;
+			sourceTree = "<group>";
+		};
+		6A486A631F53D7EF00A9F929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A486A641F53D7EF00A9F929 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A486A7C1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A486A7D1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.m */,
+				6A486A7F1F53D7EF00A9F929 /* Info.plist */,
+			);
+			path = IntelligentIdentificationTargetTests;
+			sourceTree = "<group>";
+		};
+		6A486A871F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A486A881F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.m */,
+				6A486A8A1F53D7EF00A9F929 /* Info.plist */,
+			);
+			path = IntelligentIdentificationTargetUITests;
+			sourceTree = "<group>";
+		};
+		6AFA15881F691E7300CE9E30 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				6AFA15851F691B9800CE9E30 /* FaceRecognitionViewController.h */,
+				6AFA15861F691B9800CE9E30 /* FaceRecognitionViewController.m */,
+				6AFA15891F691EA900CE9E30 /* FaceDetectionViewController.h */,
+				6AFA158A1F691EA900CE9E30 /* FaceDetectionViewController.m */,
+				6AFA158C1F691F7000CE9E30 /* FaceLoginViewController.h */,
+				6AFA158D1F691F7000CE9E30 /* FaceLoginViewController.m */,
+			);
+			name = Face;
+			sourceTree = "<group>";
+		};
+		6AFA158F1F692DEC00CE9E30 /* FCPPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6AFA15901F692DEC00CE9E30 /* FCPPApi.h */,
+				6AFA15911F692DEC00CE9E30 /* FCPPApi.m */,
+				6AFA15921F692DEC00CE9E30 /* FCPPBody.h */,
+				6AFA15931F692DEC00CE9E30 /* FCPPBody.m */,
+				6AFA15941F692DEC00CE9E30 /* FCPPConfig.h */,
+				6AFA15951F692DEC00CE9E30 /* FCPPFace.h */,
+				6AFA15961F692DEC00CE9E30 /* FCPPFace.m */,
+				6AFA15971F692DEC00CE9E30 /* FCPPFaceDetect.h */,
+				6AFA15981F692DEC00CE9E30 /* FCPPFaceDetect.m */,
+				6AFA15991F692DEC00CE9E30 /* FCPPFaceSet.h */,
+				6AFA159A1F692DEC00CE9E30 /* FCPPFaceSet.m */,
+				6AFA159B1F692DEC00CE9E30 /* FCPPOCR.h */,
+				6AFA159C1F692DEC00CE9E30 /* FCPPOCR.m */,
+				6AFA159D1F692DEC00CE9E30 /* FCPPSDK.h */,
+				6AFA159E1F692DEC00CE9E30 /* UIImage+FCExtension.h */,
+				6AFA159F1F692DEC00CE9E30 /* UIImage+FCExtension.m */,
+			);
+			path = FCPPSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A486A5F1F53D7EF00A9F929 /* IntelligentIdentificationTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A486A8D1F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTarget" */;
+			buildPhases = (
+				8E9467334DFDBE85F9670B04 /* [CP] Check Pods Manifest.lock */,
+				6A486A5C1F53D7EF00A9F929 /* Sources */,
+				6A486A5D1F53D7EF00A9F929 /* Frameworks */,
+				6A486A5E1F53D7EF00A9F929 /* Resources */,
+				38FFE75500020ADB5F059B9D /* [CP] Embed Pods Frameworks */,
+				234EB79D1413CC11F98D7144 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelligentIdentificationTarget;
+			productName = IntelligentIdentificationTarget;
+			productReference = 6A486A601F53D7EF00A9F929 /* IntelligentIdentificationTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A486A781F53D7EF00A9F929 /* IntelligentIdentificationTargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A486A901F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTargetTests" */;
+			buildPhases = (
+				6A486A751F53D7EF00A9F929 /* Sources */,
+				6A486A761F53D7EF00A9F929 /* Frameworks */,
+				6A486A771F53D7EF00A9F929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A486A7B1F53D7EF00A9F929 /* PBXTargetDependency */,
+			);
+			name = IntelligentIdentificationTargetTests;
+			productName = IntelligentIdentificationTargetTests;
+			productReference = 6A486A791F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A486A831F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A486A931F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTargetUITests" */;
+			buildPhases = (
+				6A486A801F53D7EF00A9F929 /* Sources */,
+				6A486A811F53D7EF00A9F929 /* Frameworks */,
+				6A486A821F53D7EF00A9F929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A486A861F53D7EF00A9F929 /* PBXTargetDependency */,
+			);
+			name = IntelligentIdentificationTargetUITests;
+			productName = IntelligentIdentificationTargetUITests;
+			productReference = 6A486A841F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A486A581F53D7EF00A9F929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ifreeplay;
+				TargetAttributes = {
+					6A486A5F1F53D7EF00A9F929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7W4SZ5A3GT;
+						ProvisioningStyle = Automatic;
+					};
+					6A486A781F53D7EF00A9F929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y42NQD73P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A486A5F1F53D7EF00A9F929;
+					};
+					6A486A831F53D7EF00A9F929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y42NQD73P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A486A5F1F53D7EF00A9F929;
+					};
+				};
+			};
+			buildConfigurationList = 6A486A5B1F53D7EF00A9F929 /* Build configuration list for PBXProject "IntelligentIdentificationTarget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A486A571F53D7EF00A9F929;
+			productRefGroup = 6A486A611F53D7EF00A9F929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A486A5F1F53D7EF00A9F929 /* IntelligentIdentificationTarget */,
+				6A486A781F53D7EF00A9F929 /* IntelligentIdentificationTargetTests */,
+				6A486A831F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A486A5E1F53D7EF00A9F929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A486A731F53D7EF00A9F929 /* LaunchScreen.storyboard in Resources */,
+				6A486A701F53D7EF00A9F929 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A771F53D7EF00A9F929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A821F53D7EF00A9F929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234EB79D1413CC11F98D7144 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentIdentificationTarget/Pods-IntelligentIdentificationTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FFE75500020ADB5F059B9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentIdentificationTarget/Pods-IntelligentIdentificationTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E9467334DFDBE85F9670B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelligentIdentificationTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A486A5C1F53D7EF00A9F929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFA158B1F691EA900CE9E30 /* FaceDetectionViewController.m in Sources */,
+				6AFA158E1F691F7000CE9E30 /* FaceLoginViewController.m in Sources */,
+				6AFA15A01F692DEC00CE9E30 /* FCPPApi.m in Sources */,
+				6A486A6B1F53D7EF00A9F929 /* ViewController.m in Sources */,
+				6AFA15A31F692DEC00CE9E30 /* FCPPFaceDetect.m in Sources */,
+				6AFA15A51F692DEC00CE9E30 /* FCPPOCR.m in Sources */,
+				6AFA15A11F692DEC00CE9E30 /* FCPPBody.m in Sources */,
+				6AFA15A21F692DEC00CE9E30 /* FCPPFace.m in Sources */,
+				6AFA15A41F692DEC00CE9E30 /* FCPPFaceSet.m in Sources */,
+				6AFA15A61F692DEC00CE9E30 /* UIImage+FCExtension.m in Sources */,
+				6AFA15871F691B9800CE9E30 /* FaceRecognitionViewController.m in Sources */,
+				6A486A681F53D7EF00A9F929 /* AppDelegate.m in Sources */,
+				6A486A651F53D7EF00A9F929 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A751F53D7EF00A9F929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A486A7E1F53D7EF00A9F929 /* IntelligentIdentificationTargetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A486A801F53D7EF00A9F929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A486A891F53D7EF00A9F929 /* IntelligentIdentificationTargetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A486A7B1F53D7EF00A9F929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A486A5F1F53D7EF00A9F929 /* IntelligentIdentificationTarget */;
+			targetProxy = 6A486A7A1F53D7EF00A9F929 /* PBXContainerItemProxy */;
+		};
+		6A486A861F53D7EF00A9F929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A486A5F1F53D7EF00A9F929 /* IntelligentIdentificationTarget */;
+			targetProxy = 6A486A851F53D7EF00A9F929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A486A711F53D7EF00A9F929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A486A721F53D7EF00A9F929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A486A8B1F53D7EF00A9F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A486A8C1F53D7EF00A9F929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A486A8E1F53D7EF00A9F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDE3A9A04558EE00F845D8C /* Pods-IntelligentIdentificationTarget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W4SZ5A3GT;
+				INFOPLIST_FILE = IntelligentIdentificationTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A486A8F1F53D7EF00A9F929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B2E5D7B4E70504410FCDAF /* Pods-IntelligentIdentificationTarget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7W4SZ5A3GT;
+				INFOPLIST_FILE = IntelligentIdentificationTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A486A911F53D7EF00A9F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				INFOPLIST_FILE = IntelligentIdentificationTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentIdentificationTarget.app/IntelligentIdentificationTarget";
+			};
+			name = Debug;
+		};
+		6A486A921F53D7EF00A9F929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				INFOPLIST_FILE = IntelligentIdentificationTargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentIdentificationTarget.app/IntelligentIdentificationTarget";
+			};
+			name = Release;
+		};
+		6A486A941F53D7EF00A9F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				INFOPLIST_FILE = IntelligentIdentificationTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelligentIdentificationTarget;
+			};
+			name = Debug;
+		};
+		6A486A951F53D7EF00A9F929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				INFOPLIST_FILE = IntelligentIdentificationTargetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ifreeplay.com.IntelligentIdentificationTargetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelligentIdentificationTarget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A486A5B1F53D7EF00A9F929 /* Build configuration list for PBXProject "IntelligentIdentificationTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A486A8B1F53D7EF00A9F929 /* Debug */,
+				6A486A8C1F53D7EF00A9F929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A486A8D1F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A486A8E1F53D7EF00A9F929 /* Debug */,
+				6A486A8F1F53D7EF00A9F929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A486A901F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A486A911F53D7EF00A9F929 /* Debug */,
+				6A486A921F53D7EF00A9F929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A486A931F53D7EF00A9F929 /* Build configuration list for PBXNativeTarget "IntelligentIdentificationTargetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A486A941F53D7EF00A9F929 /* Debug */,
+				6A486A951F53D7EF00A9F929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A486A581F53D7EF00A9F929 /* Project object */;
+}
